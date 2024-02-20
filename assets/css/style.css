@@ -58,6 +58,7 @@
 
 .footer-bottom a {
     color: #aaa;
+    text-decoration: none;
 }
 
 .footer-bottom a:hover {
@@ -88,4 +89,12 @@
 .strong_folio{
     display: block;
     text-transform: uppercase;
+}
+
+.contact-form {
+    padding: 50px 0;
+}
+
+.contact-info {
+    padding: 50px 0;
 }
