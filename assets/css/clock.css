@@ -1,0 +1,5 @@
+.clock {
+    text-align: right;
+    color: #333; /* Set clock text color */
+    margin-left: auto; /* Move clock to the right */
+}

@@ -1,0 +1,63 @@
+/* Custom CSS */
+
+.nav-item-link-custom {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #ffffff; /* Change color on hover */
+    background-color: #333; /* Change background color on hover */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h5 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer ul.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 20px 0;
+    color: #aaa;
+}
+
+.footer-bottom p {
+    margin-bottom: 0;
+}
+
+.footer-bottom a {
+    color: #aaa;
+}
+
+.footer-bottom a:hover {
+    color: #fff;
+}
