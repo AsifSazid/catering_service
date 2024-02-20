@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-style.css">
     <link rel="stylesheet" href="assets/css/clock.css">
+    <link rel="stylesheet" href="assets/css/library/jquery.lbt-lightbox.css" />
 </head>
 
 <body>
@@ -202,8 +203,8 @@
                                         </div>
                                         <div class="col-8">
                                             <h4>Shahrukh Khan</h4>
-                                            <img style="height: 35px; width: 100px;" src="assets/img/rating/four-stars.png"
-                                                alt="">
+                                            <img style="height: 35px; width: 100px;"
+                                                src="assets/img/rating/four-stars.png" alt="">
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
                                                 officiis veritatis fugit, adipisci necessitatibus beatae.</p>
                                         </div>
@@ -221,8 +222,8 @@
                                         </div>
                                         <div class="col-8">
                                             <h4>Salman Khan</h4>
-                                            <img style="height: 35px; width: 100px;" src="assets/img/rating/four-stars.png"
-                                                alt="">
+                                            <img style="height: 35px; width: 100px;"
+                                                src="assets/img/rating/four-stars.png" alt="">
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
                                                 officiis veritatis fugit, adipisci necessitatibus beatae.</p>
                                         </div>
@@ -235,6 +236,68 @@
             </div>
     </section>
 
+    <div id="gallery" class="bg-light">
+        <div class="container py-5">
+            <div class="text-center">
+                <h3 class="text-center mb-3 text-uppercase">Gallery</h3>
+                <p class="section_subtitle mx-auto text-muted">Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. <br />Lorem Ipsum has been the industry's standard dummy text.</p>
+                <div class="">
+                    <i class=""></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery-box">
+                    <img src="assets/img/gallery/img-1.jpg" alt="image1">
+                    <div class="caption">
+                        <p>Media Description 1</p>
+                    </div>
+                </div>
+                <div class="gallery-box">
+                    <img src="assets/img/gallery/img-2.jpg" alt="image2">
+                    <div class="caption">
+                        <p>Media Description 2</p>
+                    </div>
+                </div>
+                <div class="gallery-box">
+                    <img src="assets/img/gallery/img-3.jpg" alt="image3">
+                    <div class="caption">
+                        <p>Media Description 3</p>
+                    </div>
+                </div>
+                <div class="gallery-box">
+                    <img src="assets/img/gallery/img-4.jpg" alt="image4">
+                    <div class="caption">
+                        <p>Media Description 4</p>
+                    </div>
+                </div>
+                <div class="gallery-box">
+                    <img src="assets/img/gallery/img-5.jpg" alt="image5">
+                    <div class="caption">
+                        <p>Media Description 5</p>
+                    </div>
+                </div>
+                <div class="gallery-box">
+                    <img src="assets/img/gallery/img-6.jpg" alt="image6">
+                    <div class="caption">
+                        <p>Media Description 6</p>
+                    </div>
+                </div>
+                <div class="gallery-box">
+                    <img src="assets/img/gallery/img-7.jpg" alt="image7">
+                    <div class="caption">
+                        <p>Media Description 7</p>
+                    </div>
+                </div>
+                <div class="gallery-box">
+                    <img src="assets/img/gallery/img-8.jpg" alt="image8">
+                    <div class="caption">
+                        <p>Media Description 8</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer">
         <div class="container">
@@ -284,8 +347,48 @@
     <script src="assets/bootstrap/js/bootstrap-poppers.js"></script>
     <script src="assets/bootstrap/js/bootstrap-carousel.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/library/jquery.lbt-lightbox.js"></script>
+    <script src="assets/js/clock.js"></script>
+    <script>
+        $('#gallery').lbtLightBox({
+            qtd_pagination: 6,
+            pagination_width: "160px",
+            pagination_height: "160px",
+            custom_children: ".box img",
+            captions: true,
+            captions_selector: ".caption p",
+        });
+
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-1VDDWMRSTH');
+    </script>
+    <script>
+        try {
+            fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
+                return true;
+            }).catch(function (e) {
+                var carbonScript = document.createElement("script");
+                carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+                carbonScript.id = "_carbonads_js";
+                document.getElementById("carbon-block").appendChild(carbonScript);
+            });
+        } catch (error) {
+            console.log(error);
+        }
+    </script>
+
+
 
 
 
