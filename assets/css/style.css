@@ -70,7 +70,17 @@
     padding: 20px;
 }
 
-.carousel-caption h5,
+.carousel-caption h5{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ed1c24;
+}
+
 .carousel-caption p {
     color: #fff;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 750px;
 }
