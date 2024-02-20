@@ -39,7 +39,7 @@ function updateClock() {
     minutes = minutes < 10 ? '0' + minutes : minutes;
     seconds = seconds < 10 ? '0' + seconds : seconds;
 
-    var timeString = hours + ':' + minutes + ':' + seconds + ' ' + ampm;
+    var timeString = 'Time ' + hours + ':' + minutes + ':' + seconds + ' ' + ampm;
     var dateString = now.toDateString();
 
     timeElement.textContent = timeString;
