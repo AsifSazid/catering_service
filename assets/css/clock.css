@@ -1,9 +1,11 @@
 .clock {
-    border: 2px solid #333;
+    border: 2px solid #aaa;
     border-radius: 10px;
     margin: 1%;
     padding: 1%;
     text-align: right;
-    color: #333; /* Set clock text color */
+    color: #fff; /* Set clock text color */
+    background-color: #222;
     margin-left: auto; /* Move clock to the right */
+    text-shadow: 1px 1px #aaa;
 }

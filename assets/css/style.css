@@ -2,6 +2,12 @@
 
 .nav-item-link-custom {
     font-weight: bold;
+    color: #aaa;
+}
+
+.nav-item-link-custom:hover {
+    font-weight: bold;
+    color: #fff;
 }
 
 .navbar-nav .nav-item:hover .nav-link {
@@ -137,4 +143,10 @@
 .btn-outline-danger a:hover{
     text-decoration: none;
     color: #fff;
+}
+
+.active .nav-link .nav-item-link-custom {
+    color: #fff;
+    background-color: #333;
+    /* Customize active item background color as needed */
 }
