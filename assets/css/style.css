@@ -5,8 +5,10 @@
 }
 
 .navbar-nav .nav-item:hover .nav-link {
-    color: #ffffff; /* Change color on hover */
-    background-color: #333; /* Change background color on hover */
+    color: #ffffff;
+    /* Change color on hover */
+    background-color: #333;
+    /* Change background color on hover */
 }
 
 .footer {
@@ -59,5 +61,16 @@
 }
 
 .footer-bottom a:hover {
+    color: #fff;
+}
+
+/* Customize slider caption */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
     color: #fff;
 }
