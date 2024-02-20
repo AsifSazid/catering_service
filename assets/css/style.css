@@ -150,3 +150,7 @@
     background-color: #333;
     /* Customize active item background color as needed */
 }
+
+.card .card-img-top{
+    height: 550px;
+}
