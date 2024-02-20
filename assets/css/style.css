@@ -84,3 +84,8 @@
     width: auto;
     height: 750px;
 }
+
+.strong_folio{
+    display: block;
+    text-transform: uppercase;
+}
