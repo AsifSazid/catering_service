@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,57 +52,67 @@
         </div>
     </nav>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
+    <div class="carousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel-photos/slider-1.jpg" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption">
+                        <h5>First Slide Label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel-photos/slider-2.jpg" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption">
+                        <h5>Second Slide Label</h5>
+                        <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel-photos/slider-3.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption">
+                        <h5>Third Slide Label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel-photos/slider-4.jpg" class="d-block w-100" alt="Slide 4">
+                    <div class="carousel-caption">
+                        <h5>Fourth Slide Label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/carousel-photos/slider-1.jpg" class="d-block w-100" alt="Slide 1">
-                <div class="carousel-caption">
-                    <h5>First Slide Label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel-photos/slider-2.jpg" class="d-block w-100" alt="Slide 2">
-                <div class="carousel-caption">
-                    <h5>Second Slide Label</h5>
-                    <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel-photos/slider-3.jpg" class="d-block w-100" alt="Slide 3">
-                <div class="carousel-caption">
-                    <h5>Third Slide Label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel-photos/slider-4.jpg" class="d-block w-100" alt="Slide 4">
-                <div class="carousel-caption">
-                    <h5>Fourth Slide Label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
+        <!-- Content Overlay -->
+        <div class="content-overlay">
+            <div class="container">
+                <h1><span id="typedText" class="typing-effect"></span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn btn-outline-danger">Contact US</button>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
     <section class="p-5 bg-light" id="items">
@@ -199,7 +209,7 @@
                                     <div class="row">
                                         <div class="col-4">
                                             <img style="height: 150px; width: 150px; border-radius: 50%; border: 5px solid #F8F9FA"
-                                                src="assets/img/users/shahrukh.jpg" alt="">
+                                                src="assets/img/users/user-1.png" alt="">
                                         </div>
                                         <div class="col-8">
                                             <h4>Shahrukh Khan</h4>
@@ -218,7 +228,7 @@
                                     <div class="row">
                                         <div class="col-4">
                                             <img style="height: 150px; width: 150px; border-radius: 50%; border: 5px solid #F8F9FA"
-                                                src="assets/img/users/salman.jpg" alt="">
+                                                src="assets/img/users/user-2.png" alt="">
                                         </div>
                                         <div class="col-8">
                                             <h4>Salman Khan</h4>
@@ -388,6 +398,38 @@
         }
     </script>
 
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Text to be displayed
+            const text = "EAT & CHILL!!";
+
+            // Get the element where the text will be displayed
+            const typedTextElement = document.getElementById('typedText');
+
+            function typeText() {
+                // Set the text content to an empty string
+                typedTextElement.textContent = "";
+
+                // Type out each character with a delay
+                for (let i = 0; i < text.length; i++) {
+                    setTimeout(function() {
+                        typedTextElement.textContent += text[i];
+                    }, i * 100); // Adjust the delay as needed
+                }
+            }
+
+            // Call the typeText function initially
+            typeText();
+
+            // Set an interval to continuously loop the typing animation
+            setInterval(typeText, text.length * 100 + 2000); // Adjust the delay as needed
+        });
+
+
+
+
+    </script>
 
 
 
